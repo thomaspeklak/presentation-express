@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>reveal.js - The HTML Presentation Framework</title>
+        <title>Express</title>
 
         <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
         <meta name="author" content="Hakim El Hattab">
@@ -43,22 +43,26 @@
                 </section>
 
                 <section>
-                    <section>
-                        <h1>Express ain't Node.js</h1>
-                    </section>
-                    <section>
-                        <h2>Node's HTTP module</h2>
-                        <ul>
-                            <li>Very low level.</li>
-                            <li>No cookie handling or parsing.</li>
-                            <li>No session support built-in.</li>
-                            <li>No routing built-in.</li>
-                            <li>No static file serving.</li>
-                        </ul>
-                    </section>
+                    <h1>Express ain't Node.js</h1>
+                </section>
+                <section>
+                    <h2>Node's HTTP module</h2>
+                    <ul>
+                        <li>Very low level.</li>
+                        <li>No cookie handling or parsing.</li>
+                        <li>No session support built-in.</li>
+                        <li>No routing built-in.</li>
+                        <li>No static file serving.</li>
+                    </ul>
+                </section>
+                <section data-state="blackout">
                     <section>
                         <h1>Connect</h1>
-                        <p>a middleware framework for node</p>
+                        <p>a middleware framework for node similar to Rack</p>
+                    </section>
+                    <section>
+                        <h2>Connect middleware</h2>
+                        <img style="max-height: 80%" src="./middleware.png" />
                     </section>
                     <section>
                         <h2>Connect middlewares</h2>
@@ -86,12 +90,24 @@
                             <li>query</li>
                             <li>errorHandler</li>
                         </ul>
+                    </section>
                 </section>
-                <section>
-                    <h1>Express</h1>
-                    <p>is based upon Connect</p>
+                <section data-state="soothe">
+                    <section>
+                        <h1>Express</h1>
+                        <p>is based upon Connect</p>
+                    </section>
+                    <section>
+                        <h2>Express</h2>
+                        <ul>
+                            <li>Application configuration</li>
+                            <li>Routing</li>
+                            <li>Templating</li>
+                            <li>Helpers</li>
+                            <li>Goodies on request and response object</li>
+                        </ul>
+                </section>
             </div>
-
         </div>
 
         <script src="lib/js/head.min.js"></script>
