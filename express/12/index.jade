@@ -1,0 +1,15 @@
+extends layout
+include mixins
+
+block content
+    h1 Hello #{upcase(name)}!
+    dl
+        for color, fruit in fruits
+            if(color != "green")
+                mixin item(fruit, color)
+            else
+                mixin item(upcase(fruit), color)
+
+    form(action="/hello/universe")
+        .button
+            input(type="submit", value="Say hello to the universe")
