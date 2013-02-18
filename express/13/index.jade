@@ -1,0 +1,27 @@
+!!!5
+html
+    head
+        title Params
+    body
+        form(action="/json/world?banana=yellow&apple=green", method="POST")
+            p
+                label Cherry
+                    input(name="cherry", value="red")
+
+            p: input(type="submit", value="JSON me")
+
+        form(action="/jsonp/world?banana=yellow&apple=green&callback=cb", method="POST")
+            p
+                label Cherry
+                    input(name="cherry", value="red")
+
+            p: input(type="submit", value="JSONP me")
+
+        form(action="/params/param?firstName=query&lastName=query&email=query", method="POST")
+            p
+                label FirstName
+                    input(name="firstName", value="Body")
+                label LastName
+                    input(name="lastName", value="Body")
+
+            p: input(type="submit", value="Parametrize me")
