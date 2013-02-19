@@ -4,12 +4,13 @@ var express = require("express");
 
 var app = express();
 
+app.set('view engine', 'jade');
 app.configure(function () {
     app.set("views", __dirname);
 });
 
 app.get("/hello/:name", function (req, res) {
-    res.render("index.jade", {
+    res.render("index", {
         name: req.params.name
     });
 });

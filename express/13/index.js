@@ -14,11 +14,12 @@ var mapParams = function (params) {
 
 var app = express();
 
+app.set('view engine', 'jade');
 app.set("views", __dirname);
 app.use(express.bodyParser());
 
 app.get("/", function (req, res) {
-    res.render("index.jade");
+    res.render("index");
 });
 
 app.post("/json/:name", function (req, res) {
