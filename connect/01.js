@@ -1,3 +1,4 @@
+//SIMPLE HELLO WORLD
 "use strict";
 
 var connect = require("connect");

@@ -1,3 +1,4 @@
+//VIEWS
 "use strict";
 
 var express = require("express");
@@ -5,6 +6,7 @@ var express = require("express");
 var app = express();
 
 app.set('view engine', 'jade');
+
 app.configure(function () {
     app.set("views", __dirname);
 });

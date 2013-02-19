@@ -1,3 +1,4 @@
+//CONFIGURATION BLOCKS
 "use strict";
 
 var express = require("express");

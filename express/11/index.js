@@ -1,3 +1,4 @@
+//APP LOCALS
 "use strict";
 
 var express = require("express");

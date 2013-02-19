@@ -1,3 +1,4 @@
+//CONFIGURATION SWITCHES
 "use strict";
 
 var express = require("express");

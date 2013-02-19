@@ -1,3 +1,4 @@
+//APP.ALL AS MIDDLEWARE
 "use strict";
 
 var express = require("express");

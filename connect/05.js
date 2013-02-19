@@ -1,3 +1,4 @@
+//MIDDLEWARE THAT MANIPULATES RESPONSE
 "use strict";
 
 var connect = require("connect");
