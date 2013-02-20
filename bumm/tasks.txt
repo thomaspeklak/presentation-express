@@ -1,0 +1,4 @@
+npm install -g bumm
+
+bumm app todo
+bumm scaffold todo title:string:required:true done:boolean:default:false
