@@ -19,5 +19,5 @@ server
 server.listen(3003);
 
 // http://localhost:3003
-// http://localhost:3003/main
+// http://localhost:3003/admin
 
